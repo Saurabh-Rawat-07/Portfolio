@@ -928,7 +928,9 @@ margin: 25px 0px;
   border-radius: 20px;
   padding: 30px;
 }
-
+.contact-form{
+  margin-bottom: 30px;
+}
 .contact-info {
   padding: 30px 0px 0px;
 }
