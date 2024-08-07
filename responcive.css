@@ -1,0 +1,169 @@
+@media (width >=1024px) {
+    .navbar {
+        position: absolute;
+        bottom: auto;
+        top: 10px;
+        left: auto;
+        right: 0;
+        width: max-content;
+        border-radius: 15px;
+        padding: 0 20px;
+        box-shadow: none;
+    }
+
+    .navbar-list {
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .navbar-item {
+        padding: 10px;
+    }
+
+    .navbar-link {
+        font-weight: 500;
+    }
+
+    .banner-section {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 30px;
+    }
+
+    .terminal-loader {
+        border: 0.1em solid #333;
+        background-color: #1a1a1a;
+        color: white;
+        /* font-family: "Courier New", Courier, monospace; */
+        font-size: 1.5em;
+        padding: 1.5em 1em;
+        width: 20em;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+    .text {
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 32px;
+        font-weight: 800;
+        border-right: 0.2em solid #FEC462;
+        /* animation: typeAndDelete 4s steps(20) infinite,
+          blinkCursor 0.5s step-end infinite alternate; */
+        margin-top: 1.5em;
+    }
+
+    /* .round-effect {
+        top: 0px;
+        border-radius: 100%;
+        position: absolute;
+    } */
+
+    .service-list {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px 25px;
+    }
+
+    .service-item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 18px;
+        padding: 30px;
+    }
+
+    .service-icon-box {
+        margin-bottom: 0;
+        margin-top: 5px;
+    }
+
+    .service-content-box {
+        text-align: left;
+    }
+
+
+    .resume-experience-section {
+        background-color: transparent;
+        margin: none;
+        border: none;
+        border-radius: none;
+        padding: none;
+    }
+
+    .resume-education-setion {
+        background-color: transparent;
+        margin: none;
+        border: none;
+        border-radius: none;
+        padding: none;
+    }
+
+    .my-portfolio {
+        padding: 0px 40px;
+    }
+
+    .my-resume {
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+
+
+    .portfolio-card .portfolio-text {
+        font-size: 4rem;
+    }
+    .res-my{
+        margin: 0;
+        }
+
+    .input-wrapper {
+        flex-direction: row;
+    }
+}
+
+@media (width >=768px) and (width <=1023px){
+    /* .round-effect {
+        top: 50px;
+    } */
+
+    /* .my-image {
+        padding: 50px;
+    } */
+
+    /* .round-effect img {
+        width: 125%;
+    } */
+
+    .terminal-loader {
+        width: 25em;
+    }
+
+    .text {
+        font-size: 34px;
+    }
+}
+
+@media (width <=380px) {
+    .terminal-loader {
+        width: 13em !important; 
+      }
+
+      .text {
+        font-size: 20px;
+      }
+}
+
+@media (width <=330px) {
+
+    .terminal-loader {
+        width: 11em !important; 
+      }
+
+      .text {
+        font-size: 20px;
+      }
+}
+
